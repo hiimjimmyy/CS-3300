@@ -48,6 +48,5 @@ public class strings {
         // //System.out.println(s4[2]);//ERROR
 
 
-
     }
 }
