@@ -1,10 +1,9 @@
-package lottoSimulator;
+package Exercise3;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import java.util.Random; //this will allows us to generate random numbers
 import java.util.ArrayList; //this will allow us to return our users' input from the function call: promptInputPaneMessagesAndObtainInput(), into an array list, and then we can pass that infomation onto our lotto simulator
-import java.lang.Thread;
 
 public class lotterysimulator {
 

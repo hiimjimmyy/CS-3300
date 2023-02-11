@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch trycatchpart1",
+            "request": "launch",
+            "mainClass": "Exercise2.trycatchpart1",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch trycatchpart2",
+            "request": "launch",
+            "mainClass": "Exercise2.trycatchpart2",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch lotterysimulator",
+            "request": "launch",
+            "mainClass": "Exercise3.lotterysimulator",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch cryptarithmeticloop",
+            "request": "launch",
+            "mainClass": "Exercise4.cryptarithmeticloop",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeNumbers",
+            "request": "launch",
+            "mainClass": "Exercise5.src.main.java.primeNumbers",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch randomdemo",
+            "request": "launch",
+            "mainClass": "Lectures.randomdemo",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch scannerdemo",
+            "request": "launch",
+            "mainClass": "Lectures.scannerdemo",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch strings",
+            "request": "launch",
+            "mainClass": "Lectures.strings",
+            "projectName": "CS-3300_3c1fc97c"
+        }
+    ]
+}

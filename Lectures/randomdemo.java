@@ -11,7 +11,7 @@ public class randomdemo {
         System.out.println("hello world!");
         
         //we create an object titled "random" from our imported libary of util.
-        Random random = new Random();
+        // Random random = new Random();
 
 
 
