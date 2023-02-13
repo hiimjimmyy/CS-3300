@@ -5,54 +5,59 @@ public class primeNumbers {
 
     public static void main(String[] args)
     {
+        Integer outputFromFunctionThatObtainsInput = null;
+        Boolean quitProgram = false;
         Scanner usersChoice = new Scanner(System.in);
-        Integer output = null;
-        Boolean quitProgram = true;
-        
-        //loop to repeat program, until the user opts to quit
+        char usersChoiceInput;
+
+        //repeat program until the user opts to quit
         do
         {
             //obtain user input
-            output = askUserToInputANumberAndReturnThatValue();
+            outputFromFunctionThatObtainsInput = askUserToInputANumberAndReturnThatValue();
+            // System.out.println(outputFromFunctionThatObtainsInput);
 
-            // //finds all the prime numbers from 0 to the input value
-            ArrayList<Integer> listOfAllPrimeNumbers = findPrimeNumbersWithinRangeOfZeroToInputValueAndReturnInArrayList(output);
-            //we will pass this integer list to a functon that will process display
-            System.out.println(listOfAllPrimeNumbers);
+            //finds all the prime numbers from 0 to the input value
+            ArrayList<Integer> listOfAllPrimeNumbers = findPrimeNumbersWithinRangeOfZeroToInputValueAndReturnInArrayList(outputFromFunctionThatObtainsInput);
 
-            //check if user wants to repeat the program
-            try
+            //we will pass this integer list to a functon that will process display in the requested format
+            processDisplayAndFormat(outputFromFunctionThatObtainsInput, listOfAllPrimeNumbers);
+
+            //ask if user wants to repeat the program
+            System.out.print("Do you want to quit? ");
+            usersChoiceInput = usersChoice.next().charAt(0);
+           
+            //if user wants to quit, set boolean to true to break out of loop
+            if(usersChoiceInput == 'y')
             {
-                System.out.println("Do you want to quit?");
-                char usersChoiceToRepeatProgram = usersChoice.next().charAt(0);
-
-                if(usersChoiceToRepeatProgram == 'y')
-                {
-                    quitProgram = false;
-                }
-            }
-            catch(Exception e)
-            {
-                quitProgram = false;
+                quitProgram = true;
             }
 
-            usersChoice.close();
         }
-        while(quitProgram);
+        while(!quitProgram);
 
+        //close scanners to avoid mEmOry LeAk
+        usersChoice.close();
     }
 
-    public static Integer askUserToInputANumberAndReturnThatValue()
+    public static void processDisplayAndFormat(Integer inputValue, ArrayList<Integer> listOfPrimeValuesFromZeroToInputValue)
+    {
+        System.out.print("The following are all the prime numbers from 1 up to "+ inputValue+ ": ");
+        for(int i: listOfPrimeValuesFromZeroToInputValue)
+        {
+            System.out.print(i+ " ");
+        }
+        System.out.println("\n");
+    }
+
+    public static int askUserToInputANumberAndReturnThatValue()
     {
         //creating an object of scanner to obtain input from user
-        Scanner scanner = new Scanner(System.in);
-        
-        //obtain input from user in console
-        System.out.println("Input a number: ");
-        int input = scanner.nextInt();
+        Scanner scan = new Scanner(System.in);
 
-        //close scanner to avoid mEmOry LeAk
-        scanner.close();
+        //obtain input from user in console
+        System.out.print("Enter a positive integer ");
+        int input = scan.nextInt();
         
         //return user input value
         return input;

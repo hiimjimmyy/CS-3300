@@ -5,4 +5,4 @@ Object Oriented Programming
 | ----------- | ----------- |
 | Lectures| Lecture notes taken in class|
 | Practice Exercises| My attempts at all the take home exercises|
-| Assignments| All the assignments we did in CS 3300|$$
+| Assignments| All the assignments we did in CS 3300|
