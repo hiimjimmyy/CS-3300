@@ -36,7 +36,7 @@ public class primeNumbers {
         }
         while(!quitProgram);
 
-        //close scanners to avoid mEmOry LeAk
+        //close scanners to avoid memory Leak
         usersChoice.close();
     }
 
@@ -176,7 +176,6 @@ public class primeNumbers {
                 
         //         // }
         //     }
-
         return returnArrayOfAllPrimeValuesWithinInput;
     }
     
