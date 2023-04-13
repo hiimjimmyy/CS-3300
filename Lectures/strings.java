@@ -5,6 +5,15 @@ import java.util.Arrays;
 public class strings {
     public static void main(String[] args)
     {
+
+        String s ="123456789abcdefgh";
+        String sub = s.substring(0, 10);
+        String remainder = s.substring(10);
+
+        System.out.println(s);
+        System.out.println(sub);
+        System.out.println(remainder);
+
         // System.out.println("Character Array DEMO");
         // char char_array[] = {'G', 'E','O','M','E','T','R','Y'};//character array
         // System.out.println("ERROR -> char_array = " + char_array);

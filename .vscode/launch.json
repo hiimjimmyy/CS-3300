@@ -6,6 +6,223 @@
     "configurations": [
         {
             "type": "java",
+            "name": "driver",
+            "request": "launch",
+            "mainClass": "driver",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "temp2",
+            "request": "launch",
+            "mainClass": "Lectures.temp2",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "searchTwoDArrayList",
+            "request": "launch",
+            "mainClass": "Exercise8.searchTwoDArrayList",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "odometerClass",
+            "request": "launch",
+            "mainClass": "Exercise9.odometerClass",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "StringShiftExercise",
+            "request": "launch",
+            "mainClass": "StringShiftExercise",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "stringShift",
+            "request": "launch",
+            "mainClass": "Exercise6.stringShift",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "exercise13Driver",
+            "request": "launch",
+            "mainClass": "exercise13Driver",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "arrayListInClass",
+            "request": "launch",
+            "mainClass": "Exercise11.arrayListInClass",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "testing",
+            "request": "launch",
+            "mainClass": "testing",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "payment",
+            "request": "launch",
+            "mainClass": "Exercise13.payment",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "Exercise7.arrayList",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TimeConverterGUI",
+            "request": "launch",
+            "mainClass": "TimeConverterGUI",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "payment",
+            "request": "launch",
+            "mainClass": "Exercise13.payment",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "mainDriver",
+            "request": "launch",
+            "mainClass": "Exercise12.mainDriver",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "arrayListInClass",
+            "request": "launch",
+            "mainClass": "Exercise11.arrayListInClass",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "arrayListInClass",
+            "request": "launch",
+            "mainClass": "arrayListInClass",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "pizzaClassExercise",
+            "request": "launch",
+            "mainClass": "Exercise10.pizzaClassExercise",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "mainProgram",
+            "request": "launch",
+            "mainClass": "Exercise10.mainProgram",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "hashtableDemo",
+            "request": "launch",
+            "mainClass": "Lectures.hashtableDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch unittest",
+            "request": "launch",
+            "mainClass": "Lectures.unittest",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch testing",
+            "request": "launch",
+            "mainClass": "Lectures.testing",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch BadNumberExceptionDemo",
+            "request": "launch",
+            "mainClass": "BadNumberExceptionDemo",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch searchTwoDArrayList",
+            "request": "launch",
+            "mainClass": "Exercise8.searchTwoDArrayList",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch javamodulodemo",
+            "request": "launch",
+            "mainClass": "Lectures.javamodulodemo",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch unittest",
+            "request": "launch",
+            "mainClass": "Exercise7.unittest",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch twoDArrayListPopulation",
+            "request": "launch",
+            "mainClass": "Lectures.twoDArrayListPopulation",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayList",
+            "request": "launch",
+            "mainClass": "Exercise7.arrayList",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraydemo",
+            "request": "launch",
+            "mainClass": "Lectures.arraydemo",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringShift",
+            "request": "launch",
+            "mainClass": "Exercise6.stringShift",
+            "projectName": "CS-3300_3c1fc97c"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

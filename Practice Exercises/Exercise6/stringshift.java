@@ -1,14 +1,12 @@
 package Exercise6;
 
 import javax.swing.*;
-import java.util.*;
 
 public class stringShift {
     
 
     public static void main(String[] args)
     {
-        //Prompt antother JOPtion pane to ask if user wants to quit, (y for yes)
         Boolean quitProgram = false;
         do
         {
@@ -26,6 +24,7 @@ public class stringShift {
             //process display & format in JOPtion pane
             processDisplayAndFormat(outputFromFunctionThatObtainsStringInput, newStringWithPositionalChanges, outputFromFunctionThatObtainsIntegerInput);
 
+            //Prompt antother JOPtion pane to ask if user wants to quit, (y for yes)
             String userChoiceToContinueProgram;
             userChoiceToContinueProgram = JOptionPane.showInputDialog(null, "Do you want to quit? input 'Y' to quit.");
             char userChoice= userChoiceToContinueProgram.charAt(0);
@@ -87,21 +86,21 @@ public class stringShift {
         String secondHalf;
         secondHalf = input.substring(splitAtThisIndexPosition);
 
-        String concatinateSecondAndFirstHalfOfString = secondHalf+firstHalf;
+        String concatenatedSecondAndFirstHalfOfString = secondHalf+firstHalf;
 
-        return concatinateSecondAndFirstHalfOfString;
+        return concatenatedSecondAndFirstHalfOfString;
     }
 
     public static void processDisplayAndFormat(String originalString, String shiftedString, Integer numbersOfShift)
     {
         String line1 = "Original String = "+originalString+ "\n";
-        String line2 = "Shifted String = " + shiftedString+ "\n";
+        String line2 = "Shifted String = " +shiftedString+ "\n";
         String line3 = "Number of Shifts = "+numbersOfShift;
+        
+        String message = line1 + line2+ line3;
 
-        String completeMessage = line1 + line2+ line3;
-
-        JOptionPane.showMessageDialog(null, completeMessage, "Shifted String", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, message, "Shifted String", JOptionPane.PLAIN_MESSAGE);
     }
-
+    
 }
 
