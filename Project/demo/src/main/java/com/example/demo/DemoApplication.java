@@ -15,14 +15,14 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping("/")
+	@GetMapping("/root")
 	public String hello() {
-		return "hello world!";
+		return "Hello new world!";
 	}
-	// public List<ticket> hello() {
-	// 	return List.of(
-	// 		new ticket();
-	// 	);
-	// }
+//	 public List<ticket> hello() {
+//	 	return List.of(
+//	 		new ticket();
+//	 	);
+//	 }
 
 }
