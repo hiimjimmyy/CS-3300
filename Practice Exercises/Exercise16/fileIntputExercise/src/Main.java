@@ -9,6 +9,7 @@ public class Main
         String filePath = "/Users/jimmytran/Documents/School Related/Classes/CS 3300/CS-3300/Practice Exercises/Exercise16/fileIntputExercise/src/fileOfNumbers.txt";
         File myFile = new File(filePath);
 
+
         //open file, obtain content
         ArrayList<Integer> valuesFromFile = readFileAndReturnContent(myFile);
 

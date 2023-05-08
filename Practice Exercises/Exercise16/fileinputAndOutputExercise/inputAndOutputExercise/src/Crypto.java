@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 public class Crypto
-{
+    {
 
     //attributes
     private String plaintext_filename;

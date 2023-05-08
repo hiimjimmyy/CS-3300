@@ -4,13 +4,13 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int[] arr = {3, 4, 100, 1, 23};
+        int[] arr = {3, 4, 100, 1, 23, 10};
         Arrays.sort(arr, 0, arr.length );
 
         System.out.println("Successful sort:");
-        for(int i = 0; i < arr.length; i++)
+        for(int value: arr)
         {
-            System.out.println(arr[i]);
+            System.out.println(value);
         }
 
         System.out.println("method 1");
@@ -20,7 +20,8 @@ public class Main
         }
         catch(IllegalArgumentException e)
         {
-            System.out.println(e);
+            // System.out.println(e);
+            e.printStackTrace();
         }
 
         //sorting it with different exception
@@ -31,7 +32,8 @@ public class Main
         }
         catch(ArrayIndexOutOfBoundsException e)
         {
-            System.out.println(e);
+            // System.out.println(e);
+            e.printStackTrace();
         }
 
     }
